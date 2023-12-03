@@ -12,7 +12,7 @@ void displayFoodMenu() {
 // Drinks menu
 void displayDrinksMenu() {
     printf("----- Drinks Menu -----\n");
-    printf("1. Colacola - tk.30\n");
+    printf("1. Cocacola - tk.30\n");
     printf("2. Mango Juice - tk.25\n");
     printf("3. Cold Coffee - tk.90\n");
     printf("------------------------\n");
