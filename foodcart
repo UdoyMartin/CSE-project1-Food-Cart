@@ -3,7 +3,7 @@
 // Food menu
 void displayFoodMenu() {
     printf("----- Food Menu -----\n");
-    printf("1. Burger - $tk.150.00\n");
+    printf("1. Burger - tk.150.00\n");
     printf("2. Pizza - tk.280.00\n");
     printf("3. Chicken fry - tk.250\n");
     printf("----------------------\n");
