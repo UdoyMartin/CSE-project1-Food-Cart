@@ -3,9 +3,9 @@
 // Food menu
 void displayFoodMenu() {
     printf("----- Food Menu -----\n");
-    printf("1. Burger - tk.150.00\n");
-    printf("2. Pizza - tk.280.00\n");
-    printf("3. Chicken fry - tk.250\n");
+    printf("1. Chicken burger - tk.150\n");
+    printf("2. Pizza(6 inches)- tk.280\n");
+    printf("3. Chicken fry(4 pieces) - tk.250\n");
     printf("----------------------\n");
 }
 
@@ -13,8 +13,8 @@ void displayFoodMenu() {
 void displayDrinksMenu() {
     printf("----- Drinks Menu -----\n");
     printf("1. Cocacola - tk.30\n");
-    printf("2. Mango Juice - tk.25\n");
-    printf("3. Cold Coffee - tk.90\n");
+    printf("2. Mango Juice - tk.100\n");
+    printf("3. Cold Coffee - tk.150\n");
     printf("------------------------\n");
 }
 
@@ -23,7 +23,7 @@ int main() {
     float foodPrices[] = {150,280,250};
 
     // Prices of drink items
-    float drinkPrices[] = {30,25,90};
+    float drinkPrices[] = {30,100,150};
 
     // Variables for user input
     int choice;
