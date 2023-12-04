@@ -3,16 +3,16 @@
 // Food menu
 void displayFoodMenu() {
     printf("----- Food Menu -----\n");
-    printf("1. Chicken burger - tk.150\n");
-    printf("2. Pizza(6 inches)- tk.280\n");
-    printf("3. Chicken fry(4 pieces) - tk.250\n");
+    printf("1. Chicken burger         - tk.150\n");
+    printf("2. Pizza (6 inches)       - tk.280\n");
+    printf("3. Chicken fry (4 pieces) - tk.250\n");
     printf("----------------------\n");
 }
 
 // Drinks menu
 void displayDrinksMenu() {
     printf("----- Drinks Menu -----\n");
-    printf("1. Cocacola - tk.30\n");
+    printf("1. Cocacola    - tk.30\n");
     printf("2. Mango Juice - tk.100\n");
     printf("3. Cold Coffee - tk.150\n");
     printf("------------------------\n");
@@ -38,8 +38,6 @@ int main() {
 
     // food menu
     displayFoodMenu();
-
-    // food selection
     do {
         printf("Enter your food choice (1-3), or 0 to finish: ");
         scanf("%d", &choice);
@@ -52,12 +50,10 @@ int main() {
             printf("Invalid choice. Please choose again.\n");
         }
 
-    } while (choice != 0);
+    } while (choice !=0);
 
     // drinks menu
     displayDrinksMenu();
-
-    //  drink selection
     do {
         printf("Enter your drink choice (1-3), or 0 to finish: ");
         scanf("%d", &choice);
@@ -94,3 +90,4 @@ int main() {
 
     return 0;
 }
+
