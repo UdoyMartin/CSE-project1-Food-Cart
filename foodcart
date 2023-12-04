@@ -2,11 +2,11 @@
 
 // Food menu
 void displayFoodMenu() {
-    printf("----- Food Menu -----\n");
+    printf("---------- Food Menu -----------\n");
     printf("1. Chicken burger         - tk.150\n");
     printf("2. Pizza (6 inches)       - tk.280\n");
     printf("3. Chicken fry (4 pieces) - tk.250\n");
-    printf("----------------------\n");
+    printf("--------------------------------\n");
 }
 
 // Drinks menu
